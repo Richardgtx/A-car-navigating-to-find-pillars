@@ -1,0 +1,17 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  static_map: true
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  transform_tolerance: 1.0
+
+recovery_behaviors:
+    - name: 'rotate_recovery'
+      type: 'rotate_recovery/RotateRecovery'
+    - name: 'reset_recovery'
+      type: 'clear_costmap_recovery/ClearCostmapRecovery'
+
+reset_recovery:
+  reset_distance: 1.84
+  layer_names: ["obstacle_layer"]

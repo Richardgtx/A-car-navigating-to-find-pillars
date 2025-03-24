@@ -1,0 +1,2 @@
+home:navigation
+-DCATKIN_DEVEL_PREFIX=/home/richard/Final_Project/devel -DCMAKE_INSTALL_PREFIX=/home/richard/Final_Project/install -G Unix Makefiles

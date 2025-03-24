@@ -1,0 +1,8 @@
+prefix=/home/richard/Final_Project/devel
+
+Name: home
+Description: Description of home
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
