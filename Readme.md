@@ -8,3 +8,7 @@
 
 机器人（turtlebot）在已知静态地图的情况寻找柱子。柱子的位置未知。机器人依次寻找柱子，每次找到柱子就在柱子前 15 厘米的范围内完全停止两秒钟，表示找到柱子。
 
+
+
+https://github.com/user-attachments/assets/db8ab7be-58ca-48dc-801d-c226bba164f6
+
