@@ -16,4 +16,5 @@ https://github.com/user-attachments/assets/db8ab7be-58ca-48dc-801d-c226bba164f6
 我将该任务划分为两个部分
 1.  导航：机器人在静态地图内导航到航点
 2.  识别柱子:机器人识别的到柱子，从航点出发向它靠近。在距离柱子15s时候，机器人停留3s。
+   
 两个任务之间使用smatch状态机进行切换
